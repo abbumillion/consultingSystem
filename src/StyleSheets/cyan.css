@@ -1,0 +1,202 @@
+*{
+    -fx-base:#eee;
+    -fx-text-fill:#000;
+}
+#loader{
+    -fx-font-size:20px;
+}
+#sysTitle{
+    -fx-font-size:35px;
+    -fx-text-fill:#1da1f2 ;
+}
+#titleLabel{
+    -fx-font-size:15px;
+}
+#title{
+    -fx-font-size:15px;
+}
+#nav{
+    font-size: 15px;
+}
+#topBox{
+    -fx-font-size:35px;
+}
+#searchHBox{
+    -fx-font-size:12px;
+}
+#loginlabel{
+    -fx-text-fill:#00ffff;
+    -fx-font-size:12.5px;
+}
+.text-field{
+    -fx-background-radius:20px;
+    -fx-font-size:13.5px;
+    -fx-backround-inset:3px 3px 3px 3px;
+}
+.button{
+    /*
+   
+
+    white
+    //dark big ipad button
+    round red
+    //
+    -fx-font-size:13px;
+
+    //
+    -fx-background-color: 
+        linear-gradient(#f2f2f2,#d6d6d6),
+        linear-gradient(#fcfcfc 0%,#d9d9d9 20%,#d6d6d6 100%),
+        linear-gradient(#dddddd 0%,#f6f6f6 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: #000;
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.6),5,0.0,0,1);
+         -fx-font-size:13px;
+    -fx-background-color: 
+        linear-gradient(#f2f2f2,#d6d6d6),
+        linear-gradient(#fcfcfc 0%,#d9d9d9 20%,#d6d6d6 100%),
+        linear-gradient(#dddddd 0%,#f6f6f6 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: #000;
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.6),5,0.0,0,1);
+  
+    -fx-background-color: 
+        linear-gradient(#f2f2f2,#d6d6d6),
+        linear-gradient(#fcfcfc 0%,#d9d9d9 20%,#d6d6d6 100%),
+        linear-gradient(#dddddd 0%,#f6f6f6 50%);
+    -fx-font-size:15px;
+    -fx-background-radius: 20;
+    -fx-font-size:13px;
+  
+    */
+    -fx-font-size:13px;
+    -fx-background-color: 
+        linear-gradient(#686868 0%,#232723 25%,#373837 75%,#757575 100%),
+        linear-gradient(#020b02,#3a3a3a),
+        linear-gradient(#9d9e9d 0%,#6b6a6b 20%,#343534 80%,#242424 100%),
+        linear-gradient(#8a8a8a 0%,#6b6a6b 20%,#343534 80%,#262626 100%),
+        linear-gradient(#777777 0%,#606060 50%,#505250 51%,#2a2b2a 100%);
+    -fx-background-radius: 9,8,5,4,3;
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-text-fill: #ddd;
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.6),5,0.0,0,1);
+    -fx-background-radius: 15px;
+    -fx-background-color: #1da1f2;
+}
+.list-cell{
+    -fx-background-radius:15px;
+    -fx-padding:10px 10px 10px 10px;
+    -fx-margin:15px 15px 15px 15px;
+}
+.label{
+    -fx-font-size:10.5px;
+
+}
+#footerLabel{
+    -fx-font-size:13px;
+    -fx-font-family:sans-serif;
+    -fx-box-radius:15px;
+}
+.tab
+{
+    -fx-font-size:11.11px;
+}
+.tab-pane .tab-header-area .tab-header-background
+{
+    -fx-opacity:0;    
+}
+.tab-pane
+{
+    -fx-tab-min-width:40px;
+    -fx-tab-max-height: 43px;
+}
+.tab-pane .tab
+{
+
+}
+.tab-pane .tab:selected
+{
+}
+.tab-label
+{
+    -fx-font-size:12px;
+    -fx-font-family:san-serif;
+}  
+
+
+#black{
+    -fx-text-fill:#000;
+
+}
+#white{
+    -fx-text-fill:#fff;
+
+}
+#yellow{
+    -fx-text-fill:#ff0;
+
+}
+#grey{
+    -fx-text-fill:#ccc;
+
+}
+#cyan{
+    -fx-text-fill:#0ff;
+
+}
+#blue{
+    -fx-text-fill:#00f;
+
+}
+#green{
+    -fx-text-fill:#0f0;
+
+}
+#font-11{ 
+    -fx-font-size:11.11px;
+}
+#font-12{ 
+    -fx-font-size:12.11px;
+}
+#font-13{ 
+    -fx-font-size:13.11px;
+}
+#font-14{ 
+    -fx-font-size:14.11px;
+}
+#font-15{ 
+    -fx-font-size:15.11px;
+}
+#font-16{ 
+    -fx-font-size:16.11px;
+}
+#font-17{ 
+    -fx-font-size:17.11px;
+}
+#font-18{ 
+    -fx-font-size:18.11px;
+}
+#font-19{ 
+    -fx-font-size:19.11px;
+}
+#font-20{ 
+    -fx-font-size:20.11px;
+}
+#font-21{ 
+    -fx-font-size:21.11px;
+}
+#font-22{ 
+    -fx-font-size:22.11px;
+}
+#font-23{ 
+    -fx-font-size:23.11px;
+}
+#font-24{ 
+    -fx-font-size:24.11px;
+}
+#font-25{ 
+    -fx-font-size:25.11px;
+}
+
